@@ -1,0 +1,25 @@
+ACID PROPERTIES
+A => Atomicity
+entire the transaction takes place at once or doesn't happen
+at att 
+بمعني لو الترانسكن كله حصل خلاص تمام لكن لو في جزء بسيط وقع الترانسكشن
+كلها هتتلغي
+if all done so it called commit 
+if one fail so it called rollback
+
+C => Consistency
+every transaction results must be valid data
+بمعني لو عندي حسابين فالبنك 
+واحد فيه 100 جنيه و التاني فيه 200 جنيه
+و عايز احول 50 جنيه من الحساب الي فيه 200 جنيه للحساب التاني
+لو جيت جمعت الحسابين فالاخر بردو لازم يطلعوا 300 جنيه 
+
+i => Isolation 
+transactions happen independently
+بمعني لو بعمل اضافة لحساب بقيمة 50 جنية
+و طلبت منه يقرا حساب البنك مينفعش يقولي ثواني عشان بضيف قيمة 
+لا بيقرالي قيمة حساب البنك عشان كده معناها ان كل ترانسكشن مفصول ببعضه 
+
+D => Durability 
+succeeded transactions must be saved to disk if even a system
+failure occured 
