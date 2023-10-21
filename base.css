@@ -1,0 +1,33 @@
+:root {
+    --clr-dark: #070a12;
+    --clr-light: #f9f9fb;
+    --clr-accent: #f43f70;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow: hidden;
+    margin-left: 30px;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #fff;
+    /* border-bottom: 5px solid var(--clr-dark); */
+  }
+  
